@@ -44,11 +44,12 @@ public class DailyMission {
                     if (arr[i] != j) {
                         return j;
                     }
+                    // 배열의 다음 값 비교를 위한 연산
                     i++;
                 }
             }
         }
-        // 배열 파라미터 중 가장 큰 값 +1
+        // 위의 조건을 다 만족하면 max+1이 목표값
         return max+1;
     }
 
