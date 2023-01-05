@@ -1,6 +1,3 @@
-/**
- * 2023.01.05 임홍담 데일리 미션작업
- */
 public class DailyMission {
 
     public static void main(String[] args) {
